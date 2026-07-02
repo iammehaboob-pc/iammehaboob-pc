@@ -1,0 +1,17 @@
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+logs/*.log
+
+# Uploaded files (keep structure, ignore content)
+uploads/*.*
+!uploads/.htaccess
+
+# IDE
+.vscode/
+.idea/
+
+# Temp
+/tmp/

@@ -1,0 +1,8 @@
+# Disable PHP execution in uploads directory
+<FilesMatch "\.(php|php3|php4|php5|php7|php8|phtml|pl|py|jsp|asp|sh|cgi)$">
+    ForceType text/plain
+    Deny from all
+</FilesMatch>
+
+# Disable directory listing
+Options -Indexes
